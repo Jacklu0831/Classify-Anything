@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+  <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
+  <script src="https://unpkg.com/@tensorflow-models/knn-classifier"></script>
+  <title>Train Your Own Classifier</title>
+</head>
+
+<body>
+  <header>
+    Image Classification with MobileNet and KNN Classifier
+  </header>
+
+  <br>
+
+  <div class="output" height=50 align="center" style="font-weight:bold">
+    <div id="console" ></div>
+  </div>
+
+  <br>
+  
+  <div align='center'>
+    <button class="button" id="class-1">Add Class 1</button>
+    <button class="button" id="class-2">Add Class 2</button>
+    <button class="button" id="class-3">Add Class 3</button>
+    <button class="button" id="class-4">Add Class 4</button>
+    <button class="button" id="class-5">Add Class 5</button>
+  </div>
+
+  <div align='center'>
+    <video autoplay playsinline muted id="webcam" width="896" height="710" align-content="middle"></video>
+  </div>
+
+  <!-- load js last -->
+  <script src="index.js"></script>
+
+</body>
+
+</html>

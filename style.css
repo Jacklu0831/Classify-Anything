@@ -1,0 +1,36 @@
+body {
+	background-color: #909090;
+}
+
+header {
+	background-color: #666;
+	padding: 30px;
+	text-align: center;
+	font-size: 35px;
+	color: #ffffff;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+  background-color: #ffffff;
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  color: #000000;
+  border: 2px solid #666;
+  transition-duration: 0.3s;
+}
+
+.button:hover {background-color: #666; color: #ffffff;}
+
+.output {
+  text-align: center;
+  font-size: 24px;
+  line-height: 20px;
+  color: #ffffff;
+}
