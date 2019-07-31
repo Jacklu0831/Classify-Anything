@@ -9,9 +9,9 @@ Since the algorithm constantly predicts the live video stream and outputs its pr
 ## Demo
 
 <p align="center">
-  <a href="https://youtu.be/Kz4FU2-iAhI"><b>Watch the 3am Video Demo</b></a>
+  <a href="https://www.youtube.com/watch?v=Kz4FU2-iAhI"><b>Watch the 3am Video Demo</b></a>
   <br>
-  <a href="https://youtu.be/Kz4FU2-iAhI"><img src="https://youtu.be/Kz4FU2-iAhI/0.jpg" height="75%" width="75%" title="meme" alt="Video Demo"></a>
+  <a href="https://www.youtube.com/watch?v=Kz4FU2-iAhI"><img src="https://img.youtube.com/vi/Kz4FU2-iAhI/0.jpg" height="75%" width="75%" title="meme" alt="Video Demo"></a>
 </p>
 
 In the video demo, 5 classes/types of images were included. I first clicked on the 5 classes buttons to capture classes of training images for the KNN classifer, then I evaluated the trained model by examining the predictions it makes as I switch between different classes. Focus on how the prediction the model makes changes based on the classes if detects. Note that the classes of images can be different poses, expressions, objects, environments, hand gestures, written letters... sky ain't the limit.
